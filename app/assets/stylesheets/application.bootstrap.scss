@@ -1,2 +1,15 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+#home_video {
+  max-width: 100%;
+  min-width: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  z-index: -2;
+}
+
+h1.home {
+  color: white;
+}
